@@ -1,0 +1,153 @@
+body{
+  background-color: rgb(223, 225, 235);
+  margin-left: 230px;
+  margin-top: 130px;
+}
+.main-body{
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+
+.all-left{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.left-body{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 18px;
+  margin-left: 15px;
+}
+
+.left-body-tittle{
+  font-family: arial;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.text-box{
+  background-color: white;
+  height: 145px;
+  width: 1fr;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  border-radius: 7px;
+  min-width: 185px;
+  position: relative;
+}
+
+.text-tittle{
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+.text-body{
+  font-size: 12px;
+  color: gray;
+}
+
+.text-box svg{
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+}
+.blackEye{
+  right: 15px;
+}
+.whiteEye{
+  right: 45px;
+}
+.star{
+  right: 75px;
+}
+
+.right-body{
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 200px;
+  margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+
+.top-right-body{
+  width: 1fr;
+  height: 80px;
+  font-family: arial, roboto;
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+
+.trending-tittle,
+.announce-tittle{
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.announcment-content{
+  background-color: white;
+  padding: 3px 20px 15px 20px;
+  border-radius: 7px;
+}
+
+.a-content-text2,
+.a-content-text{
+  font-size: 10px;
+  color: gray;
+  padding-bottom: 20px;
+}
+.a-content-text{
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: lightgray;
+}
+
+.a-content-tittle{
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 15px;
+  margin-bottom: 2px;
+}
+
+.bottom-right-body{
+  width: 1fr;
+  font-family: arial, roboto;
+  margin-top: 20px;
+}
+
+.trending-content{
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 10px 20px 20px;
+  height: 180px;
+}
+
+.profile-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.trending-profile-content{
+  margin-left: 10px;
+}
+.trending-profile{
+  height: 30px;
+  border-radius: 15px;
+}
+
+.trending-name{
+  font-size: 12px;
+  margin-bottom: 2px;
+}
+.trending-desc{
+  font-size: 11px;
+  text-overflow: clip;
+  color: gray;
+}

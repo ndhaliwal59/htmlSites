@@ -1,0 +1,143 @@
+p{
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.header{
+  position: fixed;
+  left: 230px;
+  top: 0;
+  right: 0;
+  height: 130px;
+  box-shadow: 0 5px 2px -2px rgb(209, 209, 209);
+  background-color: white;
+}
+
+.top-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-right: 3em;
+  
+}
+
+.top-left-header{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  
+}
+
+.search-bar{
+  width: 80%;
+  height: 20px;
+  min-width: 228px;
+  font-size: 16px;
+  background-color: rgb(223, 225, 235);
+  margin-right: 0;
+  border-radius: 2px;
+  border-radius: 11px;
+  border: 0.5px solid lightgrey;
+}
+
+
+.search-button{
+  background-color: transparent;
+  border-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0 0 0 0;
+  padding-right: 3px;
+  padding-left: 3px;
+  border-radius: 13px;
+  margin-right: 7px;
+  margin-left: 25px;
+}
+.search-icon{
+  height: 18px;
+  margin-top: 4px;
+}
+
+
+.top-right-header{
+  display: flex;
+  align-items: center;
+  margin-left: 9em;
+  margin-right: 3em;
+  
+}
+.notifications-icon{
+  height: 18px;
+  flex-shrink: 0;
+  
+}
+.profile-pic1{
+  height: 35px;
+  border-radius: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.header-user-name{
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+
+.bottom-header{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+
+.botton-left-header{
+  display: flex;
+  align-items: center;
+  
+  flex-shrink: 0;
+}
+.profile-pic2{
+  height: 50px;
+  border-radius: 35px;
+  margin-left: 34px;
+  margin-right: 15px;
+}
+.greeting{
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.bottom-header-user-name{
+  font-size: 18px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.header-button{
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  width: 80px;
+  background-color: #0b96d7;
+  border: 0px;
+  height: 30px;
+  border-radius: 15px;
+  margin-right: 12px;
+  flex-shrink: 0;
+
+}
+
+.botton-right-header{
+  margin-right: 2em;
+  display: flex;
+  margin-left: 3em;
+  
+}
