@@ -1,0 +1,208 @@
+html{
+  scroll-behavior: smooth;;
+}
+
+head{
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+
+h1{
+  font-weight: 400;
+}
+h2{
+  font-size: 1.4rem;
+  font-weight: 500;
+  margin: 0;
+}
+h3{
+  font-size: 1rem;
+  font-weight: 400;
+  color: gray;
+}
+
+.main-head{
+  position: fixed;
+  height: 7em;
+  box-shadow: 0 5px 2px -2px rgb(209, 209, 209);
+  width: 100%;
+  font-size: 0.5rem;
+  background-color: white;
+  z-index: 10;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5em;
+  margin-right: 5em;
+  height: 7em;
+  background-color: white;
+
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 16px;
+}
+li{
+  padding-left: 0.85em;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li:hover {
+  transition: 0.25s;
+  color: #111;
+  transform: scale(1.1);
+  text-shadow: none;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  margin: 0 auto;
+  height: auto;
+
+}
+
+
+.image-div{
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+.main-picture{
+ width: 100%;
+ 
+}
+.main-tittle{
+  position: absolute;
+  font-size: 2.3rem;
+  top: 50%;
+  left: 30%;
+  right: 30%;
+  margin: 0;
+  
+}
+
+.BR-tittle{
+  color: white;
+  background-color:black;
+  padding: 0.2em 0.5em;
+  font-weight: bolder;
+  opacity: 70%;
+}
+.Arch-tittle{
+  color: white;
+}
+
+.main-body{
+  margin: 0 2em;
+}
+
+.section-tittle{
+  margin-top: 3em;
+  padding-bottom: 1.2em;
+  border-bottom: solid rgba(184, 183, 183, 0.645) 1px;
+}
+
+.project-grid{
+  margin-top: 2.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+}
+@media (max-width: 990px) {
+  .project-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+.project-houses{
+  width: 100%;
+}
+.project-box{
+  position: relative;
+}
+.project-houses-text{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 0.6em 0.9em;
+  font-size: 1rem;
+}
+
+.about-text{
+  font-size: 0.92rem;
+}
+
+.about-grid{
+  margin-top: 2.5em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+  margin-bottom: 5em;
+}
+
+@media (max-width: 990px) {
+  .about-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+
+.about-box{
+  width: 100%;
+}
+.about-pic{
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.about-button{
+  background-color: rgb(230, 230, 230);
+  border: none;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 0.5rem;
+}
+
+.form-box{
+  width: 100%;
+}
+.contact-form{
+  width: 98.25%;
+  margin-top: 1em;
+  padding: 0.5em 0em;
+  padding-left: 1em;
+  font-size: 1rem;
+  border: 1px solid lightgray;
+}
+
+.form-button{
+  background-color: black;
+  color: white;
+  margin-top: 1.6em;
+  border: none;
+  font-size: 1.1rem;
+  padding: 0.5em 0.9em;
+}
+
+.last-pic{
+  margin-top: 2em;
+  width: 100%;
+}
